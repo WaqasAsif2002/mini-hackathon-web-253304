@@ -1,0 +1,137 @@
+/* navbar  */
+
+/* Ensure navbar items are properly spaced */
+.navbar {
+    padding: 10px 0;
+    background-color: white!important;
+}
+
+/* Style for the container to space out the logo, menu, and buttons */
+.container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+/* Ensures buttons are aligned to the right */
+.btns {
+    display: flex;
+    gap: 10px; /* Space between the "Sign In" and "Sign Up" buttons */
+}
+
+.navbar-nav {
+    margin-right: auto; /* Pushes the navigation menu to the right */
+    padding-left: 40px;
+    font-size: medium;
+    font-weight: 600;
+}
+
+.navbar-brand {
+    margin-right: auto; /* Ensures logo stays to the left */
+}
+.btn-outline-danger{
+    border-radius: 60px;
+    background-color: transparent!important;
+    color: red!important;
+}
+
+
+.btn-light{
+    border-radius: 60px;
+    background-color: transparent!important;
+
+}
+/* navbar end  */
+
+/* .maincont{
+   .content{
+    padding-top: 100px;
+   }
+} */
+.content{
+    padding-top: 60px;
+}
+.btndark{
+    margin-top: 40px;
+    width: 190px;
+}
+.btngreen{
+    width: 190px;
+    background-color: #B9FF66;
+    color: black;
+    font-weight: bold;
+    font-size: large;
+
+
+}
+.btnservice{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.service{
+
+    justify-content: start;
+    text-align: start;
+    align-items: start;
+    display: flex;
+}
+.speakerimg{
+    height: fit-content;
+}
+.logos{
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px 40px;
+ 
+
+}
+.heading{
+    padding-left: 20px;
+    display: flex;
+    justify-content: center;
+}
+.cards{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    /* text-align: center; */
+
+}
+
+.cards{
+    display: inline-flex;
+    justify-content: space-between;
+
+}
+.accordion-body{
+    background-color: #c1e791;
+}
+.icon{
+    width: 30px;
+    margin-top: 30px;
+}
+.imgcard{
+    display: flex;
+    justify-content: end;
+    align-items: end;
+    text-align: end;
+}
+.cardsone{
+    width: 500px;
+}
+.card{
+    margin-top: 50px;
+    width: 500px;
+    background-color: #B9FF66;
+
+}
+.cardone{
+    background-color: #c9c9c9;
+}
+.footer{
+    margin-top: 30px;
+}
